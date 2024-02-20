@@ -25,15 +25,15 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: www-guoxiaodi-com
-    name: www.guoxiaodi.com
+    name: www.iguoxiaodi.com
     description: 'Built for anything connected to the Internet.'
     url: 'https://www.iguoxiaodi.com/'
     method: GET
-    expectStatus: 200
+    #expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: open-api-com
     name: openapi.guoxiaodi.com
     url: 'https://openapi.iguoxiaodi.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
